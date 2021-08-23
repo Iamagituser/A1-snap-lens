@@ -3,7 +3,7 @@
     "document_id": "3pFo7VWa1WrANk-_oc2u",
     "original_document_id": "3pFo7VWa1WrANk-_oc2u",
     "version": "28",
-    "lastChanged": "1629722675107",
+    "lastChanged": "1629730353302",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -32,6 +32,12 @@
             "collapsedList": [
                 [
                     [
+                        "Behavior"
+                    ],
+                    [
+                        "Diffuse"
+                    ],
+                    [
                         "Echopark"
                     ],
                     [
@@ -41,6 +47,47 @@
                     [
                         "Echopark",
                         "Specular"
+                    ],
+                    [
+                        "Graph Empty"
+                    ],
+                    [
+                        "Image Picker"
+                    ],
+                    [
+                        "Object Segmentation Texture Default"
+                    ],
+                    [
+                        "Script"
+                    ],
+                    [
+                        "Simple PBR"
+                    ],
+                    [
+                        "Textures"
+                    ],
+                    [
+                        "Textures",
+                        "Base"
+                    ],
+                    [
+                        "Textures",
+                        "Hand Segmentation"
+                    ],
+                    [
+                        "Textures",
+                        "Normal"
+                    ],
+                    [
+                        "Textures",
+                        "Pattern"
+                    ],
+                    [
+                        "Textures",
+                        "white"
+                    ],
+                    [
+                        "victoryBehaviour"
                     ]
                 ]
             ]
@@ -91,6 +138,13 @@
         "InspectorUiComponent": {
             "collapsedList": [
                 [
+                    "1629722628456864:3544",
+                    "1629724495352099:233012",
+                    "1629726156222950:445306",
+                    "1629726323887930:493188",
+                    "1629728578534130:679018"
+                ],
+                [
                     "1629722628456864:3544"
                 ]
             ]
@@ -99,7 +153,7 @@
             "foldedOwnerSceneObjects": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "-1:-1"
+            "active_graph_asset": "1629729531454122:861791"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -158,6 +212,110 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "18",
+                    "uid": "1629726218393155:466406",
+                    "name": "Files\/File20.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "19",
+                    "uid": "1629726302569750:486468",
+                    "name": "Files\/File21.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "20",
+                    "uid": "1629728779066617:724175",
+                    "name": "Files\/File22.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "21",
+                    "uid": "1629729466041567:848020",
+                    "name": "Image Picker",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "22",
+                    "uid": "1629729531454122:861791",
+                    "name": "Files\/File23",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "23",
+                    "uid": "1629729844309189:910146",
+                    "name": "Files\/File25",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "24",
+                    "uid": "1629729844431795:910200",
+                    "name": "Files\/File27.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "25",
+                    "uid": "1629729844474838:910216",
+                    "name": "Files\/File29.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "26",
+                    "uid": "1629729861391518:913555",
+                    "name": "Files\/File31",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "27",
+                    "uid": "1629729861516469:913610",
+                    "name": "Files\/File33.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "28",
+                    "uid": "1629729899597869:921926",
+                    "name": "Files\/File35",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "29",
+                    "uid": "1629729899812968:922042",
+                    "name": "Files\/File37.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "30",
+                    "uid": "1629729899860066:922062",
+                    "name": "Hand Segmentation",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
                 }
             ],
             "MaterialUpdateManager": {
@@ -174,7 +332,50 @@
                     "uidsToFeatureNamesWithIntensity": ""
                 },
                 "ScreenTransform": {
-                    "uidData": "",
+                    "uidData": [
+                        {
+                            "k": "1629724183079175:193226",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1629724183103993:193364",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1629724183135942:193514",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        }
+                    ],
                     "generalData": ""
                 }
             }
@@ -186,12 +387,20 @@
                 "2": "1528843813151434:5126",
                 "3": "1629722628456183:3542",
                 "4": "1629722628456585:3543",
-                "5": "1629722628456864:3544"
+                "5": "1629722628456864:3544",
+                "6": "1629724183056816:193159",
+                "7": "1629724183078938:193225",
+                "8": "1629724183103834:193363",
+                "9": "1629724183135762:193513",
+                "10": "1629724454560901:228052",
+                "11": "1629726303028424:486484",
+                "12": "1629728859869989:739308",
+                "13": "1629730027275386:948182"
             }
         },
         "LayerComponent": {
             "nextLayerId": "2",
-            "showOrthographicLayer": "false",
+            "showOrthographicLayer": "true",
             "layersInfo": [
                 {
                     "layerId": "0",
@@ -231,7 +440,7 @@
                 },
                 {
                     "k": "8",
-                    "v": "Files\/File8.png"
+                    "v": "Files\/File8.pvr"
                 },
                 {
                     "k": "9",
@@ -243,7 +452,7 @@
                 },
                 {
                     "k": "11",
-                    "v": "Files\/File11.png"
+                    "v": "Files\/File11.pvr"
                 },
                 {
                     "k": "12",
@@ -252,6 +461,98 @@
                 {
                     "k": "13",
                     "v": "Files\/File13.png"
+                },
+                {
+                    "k": "14",
+                    "v": "Files\/File14.pvr"
+                },
+                {
+                    "k": "15",
+                    "v": "Files\/File15.pvr"
+                },
+                {
+                    "k": "20",
+                    "v": "Files\/File20.js"
+                },
+                {
+                    "k": "21",
+                    "v": "Files\/File21.js"
+                },
+                {
+                    "k": "22",
+                    "v": "Files\/File22.js"
+                },
+                {
+                    "k": "23",
+                    "v": "Files\/File23"
+                },
+                {
+                    "k": "24",
+                    "v": "Files\/File24.lsmat"
+                },
+                {
+                    "k": "25",
+                    "v": "Files\/File25"
+                },
+                {
+                    "k": "26",
+                    "v": "Files\/File26.lsmat"
+                },
+                {
+                    "k": "27",
+                    "v": "Files\/File27.png"
+                },
+                {
+                    "k": "28",
+                    "v": "Files\/File28.png"
+                },
+                {
+                    "k": "29",
+                    "v": "Files\/File29.png"
+                },
+                {
+                    "k": "30",
+                    "v": "Files\/File30.png"
+                },
+                {
+                    "k": "31",
+                    "v": "Files\/File31"
+                },
+                {
+                    "k": "32",
+                    "v": "Files\/File32.lsmat"
+                },
+                {
+                    "k": "33",
+                    "v": "Files\/File33.png"
+                },
+                {
+                    "k": "34",
+                    "v": "Files\/File34.png"
+                },
+                {
+                    "k": "35",
+                    "v": "Files\/File35"
+                },
+                {
+                    "k": "36",
+                    "v": "Files\/File36.lsmat"
+                },
+                {
+                    "k": "37",
+                    "v": "Files\/File37.pvr"
+                },
+                {
+                    "k": "38",
+                    "v": "Files\/File38.png"
+                },
+                {
+                    "k": "39",
+                    "v": "Files\/File39.png"
+                },
+                {
+                    "k": "40",
+                    "v": "Files\/File40.pvr"
                 }
             ]
         },
@@ -279,6 +580,54 @@
                     {
                         "k": "970",
                         "v": "images\/Sombreroy-min.png"
+                    },
+                    {
+                        "k": "975",
+                        "v": "Script.js"
+                    },
+                    {
+                        "k": "976",
+                        "v": "Behavior.js"
+                    },
+                    {
+                        "k": "977",
+                        "v": "victoryBehaviour.js"
+                    },
+                    {
+                        "k": "978",
+                        "v": "Graph Empty.lsmat"
+                    },
+                    {
+                        "k": "979",
+                        "v": "Textures"
+                    },
+                    {
+                        "k": "980",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "981",
+                        "v": "Textures\/white.png"
+                    },
+                    {
+                        "k": "982",
+                        "v": "Simple PBR.lsmat"
+                    },
+                    {
+                        "k": "983",
+                        "v": "Textures\/Normal.png"
+                    },
+                    {
+                        "k": "984",
+                        "v": "Diffuse.lsmat"
+                    },
+                    {
+                        "k": "985",
+                        "v": "Textures\/Pattern.png"
+                    },
+                    {
+                        "k": "986",
+                        "v": "Object Segmentation Texture Default.lsmat"
                     }
                 ],
                 "hashes": [
@@ -305,15 +654,89 @@
                     {
                         "k": "970",
                         "v": "43eeef9fa3c5223a4cdcb7eeb380a80a"
+                    },
+                    {
+                        "k": "971",
+                        "v": "ada7dcb13f713fb2554d9815747bbad4"
+                    },
+                    {
+                        "k": "972",
+                        "v": "29be4b54bf5aa34e7242241dc3ea432c"
+                    },
+                    {
+                        "k": "973",
+                        "v": "04147fec61e809c3b3d13e10d5bb08ea"
+                    },
+                    {
+                        "k": "974",
+                        "v": "29be4b54bf5aa34e7242241dc3ea432c"
+                    },
+                    {
+                        "k": "975",
+                        "v": "4bb88814fc38588118b2ccfc9c2547ed"
+                    },
+                    {
+                        "k": "976",
+                        "v": "29be4b54bf5aa34e7242241dc3ea432c"
+                    },
+                    {
+                        "k": "977",
+                        "v": "04147fec61e809c3b3d13e10d5bb08ea"
+                    },
+                    {
+                        "k": "978",
+                        "v": "0a21a46d3d238e9af9fcb4032102dadb"
+                    },
+                    {
+                        "k": "980",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "981",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "982",
+                        "v": "00b4066b71ef04c0e68a9e277187a8ab"
+                    },
+                    {
+                        "k": "983",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "984",
+                        "v": "498797417067576891ea898f4882e126"
+                    },
+                    {
+                        "k": "985",
+                        "v": "a58af98e9db83789640c08fe78b28dbc"
+                    },
+                    {
+                        "k": "986",
+                        "v": "cbf64909095a390292756d877f5cebaa"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-08-23T22:26:02",
+                        "lastModified": "2021-08-24T00:52:06",
                         "name": "Public",
-                        "hash": "aabc7daba15775edaf2bd5816783936f",
+                        "hash": "f65dc3d3f60c102669ca0c793c65dc8a",
                         "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-08-23T23:45:02",
+                                "name": "Behavior.js",
+                                "hash": "29be4b54bf5aa34e7242241dc3ea432c",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-08-24T00:44:21",
+                                "name": "Diffuse.lsmat",
+                                "hash": "498797417067576891ea898f4882e126",
+                                "children": ""
+                            },
                             {
                                 "isFolder": "false",
                                 "lastModified": "2021-08-11T16:59:00",
@@ -326,6 +749,13 @@
                                 "lastModified": "2021-08-11T16:59:00",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-08-24T00:52:06",
+                                "name": "Graph Empty.lsmat",
+                                "hash": "2a33938abb81c7d54d28f711466e6bae",
                                 "children": ""
                             },
                             {
@@ -356,6 +786,77 @@
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-08-24T00:52:06",
+                                "name": "Object Segmentation Texture Default.lsmat",
+                                "hash": "41456563d6298d1ab86d58d5eb71291f",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-08-23T23:43:47",
+                                "name": "Script.js",
+                                "hash": "4bb88814fc38588118b2ccfc9c2547ed",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-08-24T00:44:04",
+                                "name": "Simple PBR.lsmat",
+                                "hash": "00b4066b71ef04c0e68a9e277187a8ab",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-08-24T00:44:59",
+                                "name": "Textures",
+                                "hash": "7d9c9e6c43dc9d0596bdb618e9d3ab98",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-08-24T00:44:04",
+                                        "name": "Base.png",
+                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-08-24T00:44:04",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-08-24T00:44:21",
+                                        "name": "Normal.png",
+                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-08-24T00:44:59",
+                                        "name": "Pattern.png",
+                                        "hash": "a58af98e9db83789640c08fe78b28dbc",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-08-24T00:44:04",
+                                        "name": "white.png",
+                                        "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-08-11T16:58:42",
+                                "name": "victoryBehaviour.js",
+                                "hash": "04147fec61e809c3b3d13e10d5bb08ea",
+                                "children": ""
                             }
                         ]
                     }
@@ -495,6 +996,212 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "name": "Script",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "18",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1629726218393155:466406",
+                        "fileId": "20",
+                        "originalId": "18446744073709551615",
+                        "publicId": "975",
+                        "source": "C:\/Users\/braro\/AppData\/Local\/Temp\/Lens Studio-THpbKA\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Behavior",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "19",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1629726302569750:486468",
+                        "fileId": "21",
+                        "originalId": "18446744073709551615",
+                        "publicId": "976",
+                        "source": "C:\/Users\/braro\/AppData\/Local\/Temp\/Lens Studio-THpbKA\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "victoryBehaviour",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "20",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1629728779066617:724175",
+                        "fileId": "22",
+                        "originalId": "18446744073709551615",
+                        "publicId": "977",
+                        "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/Presets\/Scripts\/BehaviorScript.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Image Picker",
+                        "type": "1",
+                        "subtype": "12",
+                        "resourceId": "21",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1629729466041567:848020",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Graph Empty",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "22",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1629729531454122:861791",
+                        "fileId": "23",
+                        "originalId": "24",
+                        "publicId": "978",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Textures",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "979",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Base",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "24",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1629729844431795:910200",
+                                "fileId": "27",
+                                "originalId": "28",
+                                "publicId": "980",
+                                "source": "C:\/Users\/braro\/AppData\/Local\/Temp\/Lens Studio-THpbKA\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": {
+                                    "originHash": "cb607d7b25a160872c49fb4d2635cc33"
+                                }
+                            },
+                            {
+                                "name": "white",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "25",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1629729844474838:910216",
+                                "fileId": "29",
+                                "originalId": "30",
+                                "publicId": "981",
+                                "source": "C:\/Users\/braro\/AppData\/Local\/Temp\/Lens Studio-THpbKA\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": {
+                                    "originHash": "0c8dcfed2f50bb81ac5276a14967c005"
+                                }
+                            },
+                            {
+                                "name": "Normal",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "27",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1629729861516469:913610",
+                                "fileId": "33",
+                                "originalId": "34",
+                                "publicId": "983",
+                                "source": "C:\/Users\/braro\/AppData\/Local\/Temp\/Lens Studio-THpbKA\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": {
+                                    "originHash": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                                }
+                            },
+                            {
+                                "name": "Pattern",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "29",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1629729899812968:922042",
+                                "fileId": "37",
+                                "originalId": "38",
+                                "publicId": "985",
+                                "source": "C:\/Users\/braro\/AppData\/Local\/Temp\/Lens Studio-THpbKA\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": {
+                                    "originHash": "a58af98e9db83789640c08fe78b28dbc"
+                                }
+                            },
+                            {
+                                "name": "Hand Segmentation",
+                                "type": "1",
+                                "subtype": "23",
+                                "resourceId": "30",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1629729899860066:922062",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Simple PBR",
+                        "type": "2",
+                        "subtype": "0",
+                        "resourceId": "23",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1629729844309189:910146",
+                        "fileId": "25",
+                        "originalId": "26",
+                        "publicId": "982",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Diffuse",
+                        "type": "2",
+                        "subtype": "0",
+                        "resourceId": "26",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1629729861391518:913555",
+                        "fileId": "31",
+                        "originalId": "32",
+                        "publicId": "984",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Object Segmentation Texture Default",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "28",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1629729899597869:921926",
+                        "fileId": "35",
+                        "originalId": "36",
+                        "publicId": "986",
+                        "source": "",
+                        "additional": ""
                     }
                 ]
             }
@@ -547,23 +1254,26 @@
                     "v": {
                         "infos": {
                             "originalSize": "1715564",
-                            "compressedSize": "1715564",
+                            "compressedSize": "485639",
                             "originalRAM": "9404416",
-                            "compressedRAM": "9404416",
+                            "compressedRAM": "1175552",
                             "extension": "png",
                             "settings": {
-                                "isCompressed": "false",
-                                "level": "0",
-                                "type": "0"
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
                             }
                         },
                         "uncompressed_file": "10",
-                        "compressed_files": "",
-                        "desiredSettings": {
-                            "isCompressed": "true",
-                            "level": "2",
-                            "type": "1"
-                        }
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "a16a3120a4aa79fbc313ec6aeb3389dd",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "14"
+                            }
+                        ]
                     }
                 },
                 {
@@ -571,23 +1281,53 @@
                     "v": {
                         "infos": {
                             "originalSize": "3443430",
-                            "compressedSize": "3443430",
+                            "compressedSize": "927746",
                             "originalRAM": "16580608",
-                            "compressedRAM": "16580608",
+                            "compressedRAM": "2072576",
                             "extension": "png",
                             "settings": {
-                                "isCompressed": "false",
-                                "level": "0",
-                                "type": "0"
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
                             }
                         },
                         "uncompressed_file": "13",
-                        "compressed_files": "",
-                        "desiredSettings": {
-                            "isCompressed": "true",
-                            "level": "2",
-                            "type": "1"
-                        }
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "02160887f5bac3489db77c55ba52ccc5",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1629729899812968:922042",
+                    "v": {
+                        "infos": {
+                            "originalSize": "39296",
+                            "compressedSize": "66337",
+                            "originalRAM": "4194304",
+                            "compressedRAM": "524288",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "39",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "a58af98e9db83789640c08fe78b28dbc",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "40"
+                            }
+                        ]
                     }
                 }
             ]
